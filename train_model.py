@@ -6,3 +6,7 @@ import joblib
 
 # Load dataset
 df = pd.read_csv("Dataset/iris.csv")
+
+#Separate features and target
+X = df.drop("species", axis=1)
+y = df["species"]
