@@ -68,26 +68,33 @@ Iris-virginica       0.79        1.00    0.88        11
 
 
 ### Windows:
-
-- venv\Scripts\activate
+```
+venv\Scripts\activate
+```
 
 
 ### Mac/Linux:
-
-- source venv/bin/activate
+```
+source venv/bin/activate
+```
 
 ### 📦 3. Install Requirements
-- pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ### 🧠 4. Run the App
-- streamlit run streamlit_app.py
-
+```
+streamlit run streamlit_app.py
+```
 
 - Then open 👉 http://localhost:8501
 
-```
 
-```
+
+``
 
 ## RENDER LINK
-- 
+```
+
+```
