@@ -45,3 +45,49 @@ It also includes a clean Streamlit UI for making live predictions from user inpu
 ---
 
 ## 📊 Classification Report
+                   precision    recall  f1-score   support
+Iris-setosa          1.00        1.00    1.00        10
+Iris-versicolor      1.00        0.67    0.80         9
+Iris-virginica       0.79        1.00    0.88        11
+
+
+---
+
+## 💻 Technologies Used
+- 🐍 **Python 3.14**
+- 🎨 **Streamlit** – web UI
+- 🤖 **Scikit-learn** – model training
+- 📦 **Pandas & NumPy** – data handling
+- 💾 **Joblib** – model persistence
+
+---
+
+## 🚀 How to Run Locally
+# ⚙️  Create & Activate Virtual Environment
+ - python -m venv venv
+
+
+# Windows:
+
+- venv\Scripts\activate
+
+
+# Mac/Linux:
+
+- source venv/bin/activate
+
+# 📦 3. Install Requirements
+- pip install -r requirements.txt
+
+# 🧠 4. Run the App
+- streamlit run streamlit_app.py
+
+
+- Then open 👉 http://localhost:8501
+
+```
+
+```
+
+## RENDER LINK
+- 
