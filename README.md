@@ -46,11 +46,12 @@ It also includes a clean Streamlit UI for making live predictions from user inpu
 
 ## 📊 Classification Report
 ---
-                   precision    recall  f1-score   support
-Iris-setosa          1.00        1.00    1.00        10
-Iris-versicolor      1.00        0.67    0.80         9
-Iris-virginica       0.79        1.00    0.88        11
 
+| Class            | Precision | Recall | F1-Score | Support |
+|:-----------------|:----------:|:-------:|:---------:|:--------:|
+| 🌸 Iris-setosa      | 1.00 | 1.00 | 1.00 | 10 |
+| 🌿 Iris-versicolor  | 1.00 | 0.67 | 0.80 | 9 |
+| 🌺 Iris-virginica   | 0.79 | 1.00 | 0.88 | 11 |
 
 ---
 
