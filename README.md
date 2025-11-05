@@ -62,24 +62,24 @@ Iris-virginica       0.79        1.00    0.88        11
 
 ---
 
-## 🚀 How to Run Locally
-# ⚙️  Create & Activate Virtual Environment
+# 🚀 How to Run Locally
+### ⚙️  Create & Activate Virtual Environment
  - python -m venv venv
 
 
-# Windows:
+### Windows:
 
 - venv\Scripts\activate
 
 
-# Mac/Linux:
+### Mac/Linux:
 
 - source venv/bin/activate
 
-# 📦 3. Install Requirements
+### 📦 3. Install Requirements
 - pip install -r requirements.txt
 
-# 🧠 4. Run the App
+### 🧠 4. Run the App
 - streamlit run streamlit_app.py
 
 
