@@ -64,8 +64,9 @@ Iris-virginica       0.79        1.00    0.88        11
 
 # 🚀 How to Run Locally
 ### ⚙️  Create & Activate Virtual Environment
- - python -m venv venv
-
+ ```
+ python -m venv venv
+```
 
 ### Windows:
 ```
