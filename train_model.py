@@ -7,6 +7,9 @@ import joblib
 # Load dataset
 df = pd.read_csv("Dataset/iris.csv")
 
+# Add column names
+df.columns = ["sepal_length", "sepal_width", "petal_length", "petal_width", "species"]
+
 #Separate features and target
 X = df.drop("species", axis=1)
 y = df["species"]
@@ -25,3 +28,6 @@ model.fit(X_train, y_train)
 # Save model and label encoder
 joblib.dump(model, "model.pkl")
 joblib.dump(le, "label_encoder.pkl")
+
+print("✅ Model and LabelEncoder saved successfully!")
+
